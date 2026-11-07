@@ -1,0 +1,81 @@
+Question,Method,K,Precision,Recall
+Q1,Dense,1,0.0,0.0
+Q1,Dense,3,0.667,1.0
+Q1,Dense,5,0.4,1.0
+Q1,Dense,10,0.2,1.0
+Q2,Dense,1,1.0,0.25
+Q2,Dense,3,0.667,0.5
+Q2,Dense,5,0.4,0.5
+Q2,Dense,10,0.4,1.0
+Q3,Dense,1,1.0,0.333
+Q3,Dense,3,0.333,0.333
+Q3,Dense,5,0.4,0.667
+Q3,Dense,10,0.3,1.0
+Q4,Dense,1,1.0,0.2
+Q4,Dense,3,1.0,0.6
+Q4,Dense,5,0.8,0.8
+Q4,Dense,10,0.5,1.0
+Q5,Dense,1,1.0,0.333
+Q5,Dense,3,0.333,0.333
+Q5,Dense,5,0.4,0.667
+Q5,Dense,10,0.3,1.0
+Q1,BM25,1,0.0,0.0
+Q1,BM25,3,0.0,0.0
+Q1,BM25,5,0.0,0.0
+Q1,BM25,10,0.0,0.0
+Q2,BM25,1,0.0,0.0
+Q2,BM25,3,0.333,0.25
+Q2,BM25,5,0.2,0.25
+Q2,BM25,10,0.2,0.5
+Q3,BM25,1,0.0,0.0
+Q3,BM25,3,0.0,0.0
+Q3,BM25,5,0.2,0.333
+Q3,BM25,10,0.1,0.333
+Q4,BM25,1,0.0,0.0
+Q4,BM25,3,0.0,0.0
+Q4,BM25,5,0.0,0.0
+Q4,BM25,10,0.2,0.4
+Q5,BM25,1,1.0,0.333
+Q5,BM25,3,0.667,0.667
+Q5,BM25,5,0.4,0.667
+Q5,BM25,10,0.2,0.667
+Q1,Hybrid,1,0.0,0.0
+Q1,Hybrid,3,0.333,0.5
+Q1,Hybrid,5,0.4,1.0
+Q1,Hybrid,10,0.2,1.0
+Q2,Hybrid,1,1.0,0.25
+Q2,Hybrid,3,0.667,0.5
+Q2,Hybrid,5,0.4,0.5
+Q2,Hybrid,10,0.3,0.75
+Q3,Hybrid,1,1.0,0.333
+Q3,Hybrid,3,0.333,0.333
+Q3,Hybrid,5,0.2,0.333
+Q3,Hybrid,10,0.3,1.0
+Q4,Hybrid,1,1.0,0.2
+Q4,Hybrid,3,1.0,0.6
+Q4,Hybrid,5,0.6,0.6
+Q4,Hybrid,10,0.5,1.0
+Q5,Hybrid,1,1.0,0.333
+Q5,Hybrid,3,0.667,0.667
+Q5,Hybrid,5,0.4,0.667
+Q5,Hybrid,10,0.2,0.667
+Q1,Hybrid + Reranking,1,1.0,0.5
+Q1,Hybrid + Reranking,3,0.333,0.5
+Q1,Hybrid + Reranking,5,0.4,1.0
+Q1,Hybrid + Reranking,10,0.2,1.0
+Q2,Hybrid + Reranking,1,0.0,0.0
+Q2,Hybrid + Reranking,3,0.667,0.5
+Q2,Hybrid + Reranking,5,0.4,0.5
+Q2,Hybrid + Reranking,10,0.3,0.75
+Q3,Hybrid + Reranking,1,0.0,0.0
+Q3,Hybrid + Reranking,3,0.333,0.333
+Q3,Hybrid + Reranking,5,0.2,0.333
+Q3,Hybrid + Reranking,10,0.3,1.0
+Q4,Hybrid + Reranking,1,1.0,0.2
+Q4,Hybrid + Reranking,3,1.0,0.6
+Q4,Hybrid + Reranking,5,1.0,1.0
+Q4,Hybrid + Reranking,10,0.5,1.0
+Q5,Hybrid + Reranking,1,0.0,0.0
+Q5,Hybrid + Reranking,3,0.333,0.333
+Q5,Hybrid + Reranking,5,0.2,0.333
+Q5,Hybrid + Reranking,10,0.2,0.667
